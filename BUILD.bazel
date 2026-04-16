@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "bits",
+    hdrs = ["include/bits/bitmask.hpp"],
+    includes = ["include"],
+    visibility = ["//visibility:public"],
+)
